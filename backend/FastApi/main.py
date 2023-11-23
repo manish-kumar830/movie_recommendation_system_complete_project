@@ -23,7 +23,7 @@ movies_df = pd.DataFrame(pickle.load(open("D:\FastApi\\practice\\movies_datafram
 movie_similarity = pickle.load(open("D:\FastApi\\practice\\movies_similarity_model.pkl","rb"))
 
 def fetch_poster(movie_id):
-   url = "https://api.themoviedb.org/3/movie/{}?api_key=8e4f3f6efc94cce5b18194960d78de95&language=en-US".format(movie_id)
+   url = "https://api.themoviedb.org/3/movie/{}?api_key=(Your Api Key)&language=en-US".format(movie_id)
    data = requests.get(url)
    data = data.json()
    try:
