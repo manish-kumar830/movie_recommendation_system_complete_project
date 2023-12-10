@@ -9,3 +9,9 @@
 #### url = "https://api.themoviedb.org/3/movie/{}?api_key=(Your Api Key)&language=en-US".format(movie_id)
 
 ### After that deploy backend on vercel server and frontend on netlify for free
+
+### Flask Backend Code : https://github.com/manish-kumar830/movie_recommendation_backend_deploy
+
+## Deloyed Link :
+
+#### https://movie-hub-mrsytem.netlify.app/
