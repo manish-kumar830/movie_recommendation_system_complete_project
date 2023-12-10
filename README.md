@@ -12,6 +12,6 @@
 
 ### Flask Backend Code : https://github.com/manish-kumar830/movie_recommendation_backend_deploy
 
-## Deloyed Link :
+### Deployed Link :
 
 #### https://movie-hub-mrsytem.netlify.app/
